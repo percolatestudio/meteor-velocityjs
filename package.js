@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "Wrapper for velocity.js includes ui pack (upstream version: 1.0.0)",
-  version: "1.0.0",
+  summary: "Wrapper for velocity.js includes ui pack",
+  version: "1.1.0",
   git: "https://github.com/percolatestudio/meteor-velocityjs.git",
-  upstreamVersion: "1.0.0"
+  upstreamVersion: "1.1.0"
 });
 
 Package.onUse(function(api) {
