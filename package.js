@@ -7,6 +7,8 @@ Package.describe({
 Package.onUse(function(api) {
   if (api.versionsFrom)
     api.versionsFrom('METEOR@0.9.1');
+    
+  api.use('jquery', 'client');
 
   api.addFiles(['velocity.js', 'velocity.ui.js'], 'client');
 });
